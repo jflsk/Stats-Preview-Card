@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="src/styles/styles.css">
   
   <title>Frontend Mentor | Stats preview card component</title>
 
@@ -12,28 +13,31 @@
 <body>
 
     <div class="main-container">
-        <img src="src/img/image-header-mobile.jpg" alt="Hero Image" class="hero-image">
-        <h1 class="head-text">
-            Get <span class="head-txt-highlight">insights</span> that help your business grow.
-        </h1>
-        <p class="main-text">
-            Discover the benefits of data analytics and make better decisions regarding revenue, customer 
-            experience, and overall efficiency.
-        </p>
-        <div class="container__stats">
-            <div class="stats__individual">
-                <h2 class="stats-title">10k+</h2>
-                <span class="stats-type">Companies</span>
-            </div>
-            <div class="stats__individual">
-                <h2 class="stats-title">314</h2>
-                <span class="stats-type">Templates</span>
-            </div>
-            <div class="stats__individual">
-                <h2 class="stats-title">12m+</h2>
-                <span class="stats-type">Queries</span>
-            </div>
+        <div class="overlay-hero">
+            <img src="src/img/image-header-mobile.jpg" alt="Hero Image" class="hero-image">
         </div>
+        <div class="container__content">
+            <h1 class="head-text">
+                Get <span class="head-txt-highlight">insights</span> that help your business grow.
+            </h1>
+            <p class="main-text">
+                Discover the benefits of data analytics and make better decisions regarding revenue, customer 
+                experience, and overall efficiency.
+            </p>
+            <div class="content__stats">
+                <div class="stats__individual">
+                    <h2 class="stats-title">10k+</h2>
+                    <span class="stats-type">Companies</span>
+                </div>
+                <div class="stats__individual">
+                    <h2 class="stats-title">314</h2>
+                    <span class="stats-type">Templates</span>
+                </div>
+                <div class="stats__individual">
+                    <h2 class="stats-title uppercase">12m+</h2>
+                    <span class="stats-type">Queries</span>
+                </div>
+            </div>
     </div>
 </body>
 </html>
